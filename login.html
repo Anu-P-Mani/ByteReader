@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #img1 {
+      height: 80px;
+      width: 80px;
+      border: 3px solid rgb(97, 96, 96);
+      border-radius: 50px;
+      box-shadow: 0 0 9px;
+      margin-top: -62px;
+      margin-left: -4px;
+    }
+
+    #img1:hover {
+      transform: scale(1.2);
+    }
+    #navbar {
+      height: 60px;
+      width: 100%;
+      background-color: #807182;
+      background-image: linear-gradient(180deg, gray 0%, #abb4b6 50%, #abc0bd 100%);
+      
+    }
+        #b1{
+          background-image: linear-gradient(to right, #a1a6b5 0%, #9fa9bb  61%, #9da4b8  100%);      
+         color: rgb(71, 70, 70);
+         border-color: #899896;
+        }
+        #b1:hover{
+          color: black;
+         box-shadow: 0 0 8px;
+        }
+        #b2{
+          color:rgb(71, 70, 70); 
+          text-align: justify; 
+          font-size: 15px; 
+          border-radius: 5px;
+          border:1px solid white; 
+          height: 35px;
+          
+        }
+        #b2:hover{
+          color: black;
+         box-shadow: 0 0 8px;
+        }
+        .fa-brands,#fa{
+          color: rgb(194, 20, 70);
+          
+        }
+        #c2 {
+      
+          background-color: #dee2e2;
+          background-image: linear-gradient(62deg, #ced0d0 0%, #c5cdcd 100%);
+          width: 100%;
+          height: 40px;
+          border-radius: 2px;
+
+        }
+    
+        #ca2{
+          text-decoration: none;
+          color: black;
+        }
+        #c3{
+          background-color: #abc0bd;
+          width: 100%;
+          height: 540px;
+          
+          
+        }
+        #c_img1,#c_img2,#c_img3{
+          height: 350px;
+          width: 650px;
+          margin-top: 30px;
+        }
+        #carouselExampleCaptions{
+          height: 350px;
+          width: 650px;
+          
+        }
+        
+        #d1{
+            background-color: #abb4b6;
+            margin-top: 40px;
+            width: 70%;
+            height: 480px;
+            float: left;
+            border: 2px solid white;
+            border-radius: 10px;
+            margin-left: 180px;
+        }
+        
+        #b3{
+          width: 120px;
+          background-image: linear-gradient(to right, #a1a6b5 0%, #9fa9bb  61%, #9da4b8  100%);      
+         color: rgb(71, 70, 70);
+         border-color: #899896;
+        }
+        #b3:hover{
+          color: black;
+         box-shadow: 0 0 8px;
+        }
+        #a1{
+          text-decoration: none;
+          color:rgb(71, 70, 70);
+        }
+        #a1:hover{
+          color: black;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/234803766d.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item" style="margin-left: 80px;">
+            <a class="nav-link active" aria-current="page" href="Homepage.html"><b><i style="font-size: 20px;">Byte
+                  Reader</i></b></a>
+          </li>
+
+          <li>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Enter keyword, title, Author"
+                aria-label="Search" style="width: 280px;">
+              <button id="b1" class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </li>
+          <li class="nav-item" style="margin-left: 10px;">
+            <a class="nav-link" href="#">My Account</a>
+          </li>
+          <li class="nav-item" style="margin-left: 10px;">
+            <a class="nav-link" href="#">Basket <img src="cart.png" alt="cart" width="15px" height="15px"></a>
+          </li>
+          <li class="nav-item" style="margin-left: 10px;">
+            <a class="nav-link" href="#">Help</a>
+          </li>
+          <li class="nav-item" style="margin-left: 10px;">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+
+          <li class="nav-item" style="margin-left: 10px;">
+            <a class="nav-link" href="https://instagram.com/anu_p.mani?igshid=ZDc4ODBmNjlmNQ=="><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li class="nav-item" style="margin-left: 10px;">
+            <a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li class="nav-item" style="margin-left: 10px;">
+            <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+
+          <li class="nav-item" style="margin-left: 10px;">
+            <a class="nav-link" href="login.html">Log IN</a>
+          </li>
+          <li class="nav-item" style="margin-left:10px;">
+            <button id="b2">
+              <a class="nav-link" href="signin.html">Sign IN</a>
+            </button>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+<nav id="c2" class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="Homepage.html"><img id="img1" src="homepage1.webp" alt="Byte Reader"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item" style="margin-left: 20px;font-size: 14px;">
+          <a id="c2a" class="nav-link" href="browse_collection.html">Browse Collections</a>
+        </li>
+        <li class="nav-item" style="margin-left: 90px;font-size: 14px;">
+          <a id="c2a" class="nav-link" href="rare_books.html">Rare Books</a>
+        </li>
+        <li class="nav-item" style="margin-left: 90px;font-size: 14px;">
+          <a id="c2a" class="nav-link" href="art&collectibles.html">Art & Collectibles</a>
+        </li>
+        <li class="nav-item" style="margin-left: 90px;font-size: 14px;">
+          <a id="c2a" class="nav-link" href="textbook.html">Textbooks</a>
+        </li>
+        <li class="nav-item" style="margin-left: 90px;font-size: 14px;">
+          <a id="c2a" class="nav-link" href="sellers.html">Sellers</a>
+        </li>
+        <li class="nav-item" style="margin-left: 90px;font-size: 14px;">
+          <a id="c2a" class="nav-link" href="start_selling.html">Start Selling</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+<div id ="c3" class="container-fluid">
+    
+        <div id="d1">
+            <center>
+            <form>
+                <div class="mb-3">
+                  <h2 style="margin-top: 20px;"><i>Login</i></h2>
+        <i class="fa-brands fa-facebook fa-1x"></i>
+        <i id="fa" class="fa-solid fa-envelope fa-1x"></i>
+        
+        <p>Or use your account</p>
+        <div><p style="color:rgb(240, 238, 238);font-size: 13;">Don't have an account?<a href="signin.html" style="color: rgb(194, 20, 70)">Create Your Account</a> It takes less than a minute.</p></div>
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Example@gmail.com" style="width:300px">
+                  <div id="emailHelp" class="form-text" style="color:white; font-size: 14px;">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" style="width:300px">
+                </div>
+                
+                <div class="form-check form-switch">
+                    <div style="margin-left: 260px;"><input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault"></div>
+                    <label class="form-check-label ml-5" for="flexSwitchCheckDefault" style="color: white; font-size: 14px;">Keep Logged In</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#" style="text-decoration: none;color: white; font-size: 14px;">Forgot Password ?</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#" style="text-decoration: none;color: white; font-size: 14px;">Help ?</a>
+                  </div><br>
+                <button id="b3" type="submit" class="btn"><a id="a1" href="Homepage.html">Login</a></button>
+              </form>
+            </center>
+        </div>
+        
+        
+    </div>
+    
+</div>
+</body>
+</html>
